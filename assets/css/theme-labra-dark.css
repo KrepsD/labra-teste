@@ -1,0 +1,13 @@
+@import "theme-relearn-dark.css";
+
+:root {
+  --PRIMARY-color: #247aa5;
+  --PRIMARY-HOVER-color: #3297bf;
+  --SECONDARY-color: #54bed5;
+  --SECONDARY-HOVER-color: #84d8e9;
+  --MENU-HEADER-color: #ffffff;
+  --MENU-SECTIONS-BG-color: #102b45;
+  --MENU-SECTIONS-ACTIVE-BG-color: #0a2037;
+  --MENU-SECTIONS-LINK-color: #d2e5f0;
+  --MENU-SECTIONS-LINK-HOVER-color: #ffffff;
+}

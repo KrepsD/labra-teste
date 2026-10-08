@@ -1,0 +1,35 @@
+:root {
+  --labra-blue: #164779;
+  --labra-cyan: #28a4bd;
+}
+
+#R-logo { font-weight: 800; letter-spacing: .04em; }
+#R-logo a { line-height: 1.15; }
+
+.labra-hero {
+  min-height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: end;
+  margin: 0 0 2rem;
+  background: linear-gradient(90deg, rgba(9,30,57,.92), rgba(9,30,57,.25)), url('../images/hero-labra.webp') center / cover;
+  color: #fff;
+}
+.labra-hero > div { padding: clamp(1.5rem, 5vw, 3rem); max-width: 720px; }
+.labra-hero .eyebrow { margin: 0 0 .5rem; font-size: .82rem; text-transform: uppercase; letter-spacing: .16em; color: #a8ecff; font-weight: 700; }
+.labra-hero h2 { color: #fff; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.08; margin: 0 0 .8rem; }
+.labra-hero p { color: #fff; margin: 0; max-width: 60ch; }
+.labra-lead { font-size: 1.16rem; line-height: 1.65; max-width: 72ch; }
+.labra-photo { display: block; max-width: 100%; width: 780px; height: auto; margin: 1.25rem 0; border-radius: 12px; }
+.labra-equipment { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin: 1.5rem 0 2.5rem; }
+.labra-equipment figure { margin: 0; }
+.labra-equipment img { display: block; width: 100%; height: 170px; object-fit: cover; border-radius: 10px; }
+.labra-equipment figcaption { font-size: .85rem; margin-top: .4rem; opacity: .8; }
+.labra-people { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.25rem; margin: 1.2rem 0 2.5rem; }
+.labra-person { margin: 0; text-align: center; }
+.labra-person img { width: 124px; height: 124px; object-fit: cover; border-radius: 50%; background: #e8edf2; }
+.labra-person strong { display: block; line-height: 1.25; margin-top: .45rem; }
+.labra-person span { display: block; font-size: .83rem; opacity: .8; }
+.labra-person a { font-size: .82rem; }
+.labra-note { border-left: 4px solid var(--labra-cyan); padding: .9rem 1.2rem; background: rgba(40, 164, 189, .1); margin: 1.5rem 0; }

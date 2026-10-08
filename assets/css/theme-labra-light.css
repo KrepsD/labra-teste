@@ -1,0 +1,13 @@
+@import "theme-relearn-light.css";
+
+:root {
+  --PRIMARY-color: #145a85;
+  --PRIMARY-HOVER-color: #0d4568;
+  --SECONDARY-color: #147b9e;
+  --SECONDARY-HOVER-color: #0e617f;
+  --MENU-HEADER-color: #ffffff;
+  --MENU-SECTIONS-BG-color: #102b45;
+  --MENU-SECTIONS-ACTIVE-BG-color: #0a2037;
+  --MENU-SECTIONS-LINK-color: #d2e5f0;
+  --MENU-SECTIONS-LINK-HOVER-color: #ffffff;
+}

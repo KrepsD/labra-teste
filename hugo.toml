@@ -1,0 +1,35 @@
+baseURL = 'https://example.org/'
+title = 'LABRA | Laboratório de Robótica Avançada'
+theme = 'hugo-theme-relearn'
+locale = 'pt-BR'
+defaultContentLanguage = 'pt-br'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  linkTitle = 'LABRA · UFSC'
+  themeVariant = ['auto', 'labra-light', 'labra-dark']
+  collapsibleMenu = true
+  disableLandingPageButton = true
+  disableRootBreadcrumb = true
+  showVisitedLinks = false
+  [params.link]
+    underline = true
+
+[languages]
+  [languages.pt-br]
+    label = 'Português (Brasil)'
+    weight = 1
+    [languages.pt-br.params]
+      landingPageName = 'Início'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser.attribute]
+      block = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
