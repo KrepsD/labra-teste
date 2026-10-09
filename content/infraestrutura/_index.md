@@ -30,20 +30,4 @@ Veículo terrestre de pesquisa com capacidade para integrar sensores e outros co
 
 Estações de alto desempenho para simulações de engenharia. A [descrição original](https://labra.ufsc.br/infraestrutura/) inclui configurações com processadores Intel i9 e i7 e placas de vídeo RTX 5090 e RTX 5080.
 
-## Equipamentos em imagens
-
-<div class="labra-slideshow" data-labra-slideshow aria-label="Imagens dos equipamentos do LABRA" aria-roledescription="carrossel">
-  <div class="labra-slides" id="labra-equipment-slides">
-    <figure class="labra-slide" data-labra-slide><img src="../images/optitrack.webp" alt="Sistema OptiTrack no laboratório" loading="lazy"><figcaption>Sistema de localização OptiTrack</figcaption></figure>
-    <figure class="labra-slide" data-labra-slide><img src="../images/qdrone.webp" alt="Drone QDrone Quanser" loading="lazy"><figcaption>Drone QDrone Quanser</figcaption></figure>
-    <figure class="labra-slide" data-labra-slide><img src="../images/qbot.webp" alt="Robô terrestre QBot Quanser" loading="lazy"><figcaption>Plataforma QBot Quanser</figcaption></figure>
-    <figure class="labra-slide" data-labra-slide><img src="../images/go2.webp" alt="Robô quadrúpede Go2 Edu" loading="lazy"><figcaption>Robô Go2 Edu 4</figcaption></figure>
-    <figure class="labra-slide" data-labra-slide><img src="../images/husky.webp" alt="Plataforma robótica Husky" loading="lazy"><figcaption>Plataforma Husky Clearpath</figcaption></figure>
-    <figure class="labra-slide" data-labra-slide><img src="../images/computadores.webp" alt="Computadores do laboratório" loading="lazy"><figcaption>Computadores de simulação</figcaption></figure>
-  </div>
-  <div class="labra-slide-controls" hidden>
-    <button type="button" data-labra-prev aria-controls="labra-equipment-slides" aria-label="Mostrar equipamento anterior">‹ Anterior</button>
-    <span data-labra-count role="status" aria-live="polite"></span>
-    <button type="button" data-labra-next aria-controls="labra-equipment-slides" aria-label="Mostrar próximo equipamento">Próximo ›</button>
-  </div>
-</div>
+{{< slideshow path="images/slideshow" largeText="Equipamentos em imagens" smallText="Conheça as plataformas e instrumentos de pesquisa do LABRA" >}}

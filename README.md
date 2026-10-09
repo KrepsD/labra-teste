@@ -20,6 +20,8 @@ Versão estática experimental do site do Laboratório de Robótica Avançada da
 
 O conteúdo é editado em `content/`, a configuração em `hugo.toml`, as fotos em `static/images/` e os ajustes visuais em `static/css/custom.css`. Não edite os arquivos dentro de `themes/hugo-theme-relearn/`; eles pertencem ao submódulo do tema.
 
+O slideshow de infraestrutura usa o shortcode local `{{< slideshow path="images/slideshow" largeText="Equipamentos em imagens" smallText="Conheça as plataformas e instrumentos de pesquisa do LABRA" >}}`. Para acrescentar equipamentos, coloque imagens numeradas em `static/images/slideshow/` e defina título e texto alternativo em `data/slideshow.yaml`. A apresentação avança a cada cinco segundos e pode ser pausada pelo visitante.
+
 ## Publicar um teste no GitHub Pages
 
 1. Crie um repositório **vazio** no GitHub, por exemplo `labra-teste`. Não peça ao GitHub para criar README, licença ou `.gitignore`, porque este projeto já tem esses arquivos. Use um repositório público para o teste, a menos que seu plano e suas políticas permitam Pages em um repositório privado.

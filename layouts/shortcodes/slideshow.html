@@ -1,0 +1,44 @@
+{{- $path := .Get "path" -}}
+{{- $directory := printf "static/%s" $path -}}
+{{- if not (fileExists $directory) -}}
+  {{- errorf "slideshow: pasta %q não encontrada em %s" $directory .Position -}}
+{{- end -}}
+{{- $images := slice -}}
+{{- range readDir $directory -}}
+  {{- if and (not .IsDir) (findRE `(?i)\.(png|jpe?g|webp|gif|avif)$` .Name) -}}
+    {{- $images = $images | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq (len $images) 0 -}}
+  {{- errorf "slideshow: nenhuma imagem encontrada em %q (%s)" $directory .Position -}}
+{{- end -}}
+{{- $id := printf "labra-slides-%d" .Ordinal -}}
+<div class="labra-slideshow" data-labra-slideshow aria-label="{{ with .Get "largeText" }}{{ . }}{{ else }}Apresentação de imagens{{ end }}" aria-roledescription="carrossel">
+  {{ with .Get "largeText" }}<h2>{{ . }}</h2>{{ end }}
+  {{ with .Get "smallText" }}<p>{{ . }}</p>{{ end }}
+  <div class="labra-slides" id="{{ $id }}">
+    {{- range $images -}}
+      {{- $meta := index hugo.Data.slideshow .Name -}}
+      {{- $fallback := humanize (replaceRE `^\d+-` "" (replaceRE `\.[^.]+$` "" .Name)) -}}
+      {{- $title := $fallback -}}
+      {{- $alt := $fallback -}}
+      {{- with $meta -}}
+        {{- $title = .title -}}
+        {{- $alt = .alt -}}
+      {{- end -}}
+      {{- $src := printf "%s/%s" $path .Name | relURL -}}
+      <figure class="labra-slide" data-labra-slide>
+        <img src="{{ $src }}" alt="{{ $alt }}">
+        <figcaption>{{ $title }}</figcaption>
+      </figure>
+    {{- end -}}
+  </div>
+  <div class="labra-slide-controls" hidden>
+    <div class="labra-slide-navigation">
+      <button type="button" data-labra-prev aria-controls="{{ $id }}" aria-label="Mostrar equipamento anterior">‹ Anterior</button>
+      <span data-labra-count></span>
+      <button type="button" data-labra-next aria-controls="{{ $id }}" aria-label="Mostrar próximo equipamento">Próximo ›</button>
+    </div>
+    <button type="button" data-labra-toggle aria-controls="{{ $id }}">Pausar apresentação</button>
+  </div>
+</div>
