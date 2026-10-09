@@ -16,4 +16,4 @@ Esta linha desenvolve mecanismos, efetuadores e soluções de manipulação para
 - Robôs de propósito específico
 - Integração mecânica e mecatrônica
 
-[Fonte: página original](https://labra.ufsc.br/pesquisa-e-projetos-projeto-de-mecanismos-e-manipulacao-robotica/)
+\n

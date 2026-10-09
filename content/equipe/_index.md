@@ -5,7 +5,7 @@ aliases = ['/nosso_time/']
 description = 'Professores e estudantes apresentados pelo LABRA.'
 +++
 
-A composição abaixo foi transcrita da página [Nosso time](https://labra.ufsc.br/nosso_time/) do site original. Consulte o laboratório para confirmar mudanças recentes na equipe.
+A composição da equipe abaixo pode mudar com a entrada e saída de pesquisadores. Entre em contato com o laboratório para confirmar informações atuais.
 
 <img class="labra-group-photo" src="../images/equipe-labra.webp" alt="Integrantes do LABRA reunidos no laboratório" width="1280" height="960">
 

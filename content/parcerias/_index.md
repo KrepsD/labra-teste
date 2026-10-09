@@ -5,7 +5,7 @@ aliases = ['/parcerias_financiadores/']
 description = 'Organizações citadas pelo LABRA como parceiras ou financiadoras.'
 +++
 
-O [site original do LABRA](https://labra.ufsc.br/parcerias_financiadores/) apresenta as seguintes organizações em sua página de parcerias e financiadores:
+Organizações apresentadas entre as parcerias e fontes de financiamento do LABRA:
 
 - [Fapesc](https://fapesc.sc.gov.br/)
 - [Embraer](https://www.embraer.com/pt/)

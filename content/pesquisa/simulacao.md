@@ -16,4 +16,4 @@ A pesquisa usa simulação física e gêmeos digitais para projetar, testar e va
 - Treinamento de IA em ambientes simulados
 - Integração entre modelo virtual e sistema real
 
-[Fonte: página original](https://labra.ufsc.br/gemeos-digitais-e-simulacao-robotica/)
+\n

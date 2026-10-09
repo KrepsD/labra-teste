@@ -16,4 +16,4 @@ Esta frente integra percepção, modelagem, planejamento e controle para criar r
 - Autonomia embarcada
 - Operação em ambientes não estruturados
 
-[Fonte: página original](https://labra.ufsc.br/sistemas-roboticos-autonomos/)
+\n

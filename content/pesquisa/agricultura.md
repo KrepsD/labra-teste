@@ -16,4 +16,4 @@ Esta frente investiga aplicações de robótica, percepção e inteligência art
 - Navegação em ambientes naturais
 - Automação de operações agrícolas
 
-[Fonte: página original](https://labra.ufsc.br/robotica-para-agricultura-de-precisao-agro-4-0/)
+\n

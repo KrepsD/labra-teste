@@ -15,4 +15,4 @@ Esta linha aplica mecanismos, percepção, inteligência artificial, controle e 
 - Automação inteligente de processos industriais
 - Manipulação robótica em ambientes industriais
 
-[Fonte: página original](https://labra.ufsc.br/robotica-para-industria-4-0/)
+\n

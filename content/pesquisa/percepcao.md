@@ -15,4 +15,4 @@ Esta linha desenvolve métodos para sistemas robóticos perceberem e interpretar
 - Detecção e reconhecimento de objetos
 - Percepção para navegação autônoma
 
-[Fonte: página original](https://labra.ufsc.br/percepcao-robotica-e-inteligencia-artificial/)
+\n

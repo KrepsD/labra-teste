@@ -15,4 +15,4 @@ A linha estuda modelagem, análise e controle de sistemas robóticos com foco em
 - Controle de formação de robôs
 - Estabilidade e análise de sistemas dinâmicos
 
-[Fonte: página original](https://labra.ufsc.br/controle-e-sistemas-dinamicos-em-robotica/)
+\n

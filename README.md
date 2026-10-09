@@ -1,16 +1,16 @@
 # LABRA UFSC — protótipo Hugo + GitHub Pages
 
-Versão estática experimental do site do Laboratório de Robótica Avançada da UFSC Blumenau, feita com [Hugo](https://gohugo.io/) e [Relearn](https://github.com/McShelby/hugo-theme-relearn). O conteúdo foi organizado a partir de [labra.ufsc.br](https://labra.ufsc.br/) em 8 de outubro de 2026. O WordPress atual não é alterado por este projeto.
+Site estático do Laboratório de Robótica Avançada da UFSC Blumenau, feito com [Hugo](https://gohugo.io/) e [Relearn](https://github.com/McShelby/hugo-theme-relearn).
 
 ## O que há no protótipo
 
 - Início, história, equipe, infraestrutura, sete linhas de pesquisa, parcerias, publicações e contato.
-- Fotos selecionadas do site original e imagens fornecidas pela equipe, armazenadas no próprio repositório.
+- Fotos e imagens do laboratório armazenadas no próprio repositório.
 - Busca local do Relearn, menu responsivo e opções de visualização clara/escura.
 - GitHub Actions que compila e publica o site em cada envio para `main`.
-- Redirecionamentos para as principais URLs antigas do WordPress, úteis se o domínio institucional for migrado depois.
+- Endereços alternativos para algumas páginas, úteis para preservar links já compartilhados.
 
-**Revisões editoriais antes de uso oficial:** confirmar nomes e vínculos da equipe, instituições parceiras, equipamento disponível e direitos de uso das fotos. A página de publicações do WordPress não apresentou trabalhos; por isso, a versão estática contém apenas uma indicação honesta da lacuna. O formulário do WordPress foi substituído por links de e-mail e redes sociais, pois GitHub Pages hospeda apenas arquivos estáticos. Os posts de demonstração do tema WordPress e a página “Venue Info” foram excluídos por não serem conteúdo do laboratório.
+**Revisões editoriais antes de uso oficial:** confirmar nomes e vínculos da equipe, instituições parceiras, equipamento disponível e direitos de uso das fotos. A seção de publicações está em preparação. O contato é feito por e-mail e redes sociais, pois GitHub Pages hospeda apenas arquivos estáticos.
 
 ## Testar no computador
 
@@ -45,12 +45,12 @@ O workflow usa a URL que o próprio GitHub Pages fornece ao gerar o site. Assim,
 
 ## Domínio institucional depois do teste
 
-Mantenha `labra.ufsc.br` apontando para o WordPress até aprovar o protótipo. A migração do domínio exige acesso às configurações de DNS da UFSC e a configuração de **Custom domain** no GitHub Pages. Antes de qualquer troca, peça à equipe de TI responsável o procedimento para o subdomínio e confira as orientações de [domínios personalizados do GitHub Pages](https://docs.github.com/pt/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages). As páginas principais migradas já têm redirecionamentos das URLs antigas; revise outras URLs em uso antes da troca.
+Para usar um domínio institucional, configure o DNS com a equipe de TI responsável e informe o endereço em **Custom domain** no GitHub Pages. Confira as orientações de [domínios personalizados do GitHub Pages](https://docs.github.com/pt/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages) antes da mudança.
 
 ## Como comparar desempenho
 
-Depois da publicação, compare a mesma página do WordPress e do protótipo em uma ferramenta como [PageSpeed Insights](https://pagespeed.web.dev/), em celular e desktop. Observe LCP, INP, CLS e o tamanho total transferido. Este projeto remove a execução de PHP e o conjunto de plugins do WordPress no atendimento das páginas, mas a velocidade percebida precisa ser medida no endereço publicado.
+Depois da publicação, avalie o site em uma ferramenta como [PageSpeed Insights](https://pagespeed.web.dev/), em celular e desktop. Observe LCP, INP, CLS e o tamanho total transferido. A velocidade percebida deve ser medida no endereço publicado.
 
-## Fontes do conteúdo
+## Imagens e conteúdo
 
-Páginas de [início](https://labra.ufsc.br/), [história](https://labra.ufsc.br/nossa_historia/), [equipe](https://labra.ufsc.br/nosso_time/), [infraestrutura](https://labra.ufsc.br/infraestrutura/), [pesquisa](https://labra.ufsc.br/pesquisa/), [parcerias](https://labra.ufsc.br/parcerias_financiadores/) e [publicações](https://labra.ufsc.br/publicacoes/) do WordPress do LABRA, consultadas em 8 de outubro de 2026. As páginas individuais de pesquisa mantêm links para suas fontes. As imagens iniciais vieram da pasta `/wp-content/uploads/2026/` do site original. O logo, o guardanapo, o mapa de localização e a foto coletiva foram fornecidos pelo usuário nesta conversa.
+As imagens usadas pelo site estão em `static/images/` e são publicadas junto com o projeto. O logo, o guardanapo, o mapa de localização e a foto coletiva foram fornecidos pela equipe para esta versão.

@@ -28,6 +28,6 @@ Veículo terrestre de pesquisa com capacidade para integrar sensores e outros co
 
 ## Computadores de simulação
 
-Estações de alto desempenho para simulações de engenharia. A [descrição original](https://labra.ufsc.br/infraestrutura/) inclui configurações com processadores Intel i9 e i7 e placas de vídeo RTX 5090 e RTX 5080.
+Estações de alto desempenho para simulações de engenharia, com configurações que incluem processadores Intel i9 e i7 e placas de vídeo RTX 5090 e RTX 5080.
 
 {{< slideshow path="images/slideshow" largeText="Equipamentos em imagens" smallText="Conheça as plataformas e instrumentos de pesquisa do LABRA" >}}
