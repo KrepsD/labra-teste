@@ -25,9 +25,10 @@
 
   #R-logo img {
     display: block;
-    width: 100%;
+    width: 70%;
     max-width: none;
     height: auto;
+    margin-inline: auto;
   }
 
   a#R-logo:hover {
@@ -78,5 +79,5 @@
 </style>
 
 <a id="R-logo" href="{{ partial "permalink.gotmpl" (dict "to" site.Home) }}">
-  <img src="{{ "images/logo.png" | relURL }}" alt="Logotipo do LABRA — Laboratório de Robótica Avançada">
+  <img src="{{ "images/logo-transparent.png" | relURL }}" alt="Logotipo do LABRA — Laboratório de Robótica Avançada">
 </a>
