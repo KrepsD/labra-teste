@@ -9,8 +9,8 @@ aliases = ['/home/']
 <img src="images/hero-labra.webp" alt="Robôs terrestres e equipamentos de pesquisa do LABRA" width="1024" height="622" fetchpriority="high">
 <div>
 <p class="eyebrow">UFSC · Campus Blumenau</p>
-<h2>Robótica para desafios reais</h2>
-<p>Pesquisa, formação e desenvolvimento de sistemas robóticos terrestres e aéreos.</p>
+<h1>LABRA</h1>
+<p>Laboratório de Robótica Avançada: pesquisa, formação e desenvolvimento de sistemas robóticos terrestres e aéreos.</p>
 </div></div>
 
 ## Quem somos nós?

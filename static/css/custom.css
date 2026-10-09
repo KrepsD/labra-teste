@@ -15,12 +15,12 @@
 .labra-hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(9,30,57,.88) 0%, rgba(9,30,57,.58) 42%, rgba(9,30,57,.04) 85%); }
 .labra-hero > div { position: absolute; z-index: 1; top: clamp(1.25rem, 5vw, 3rem); left: clamp(1.25rem, 5vw, 3rem); width: min(75%, 680px); }
 .labra-hero .eyebrow { margin: 0 0 .5rem; font-size: .82rem; text-transform: uppercase; letter-spacing: .16em; color: #a8ecff; font-weight: 700; }
-.labra-hero h2 { color: #fff; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.08; margin: 0 0 .8rem; overflow: visible; }
+.labra-hero h1 { color: #fff; font-family: var(--INTERNAL-MAIN-TITLES-H2-font); font-size: clamp(2rem, 4vw, 3.2rem); font-variation-settings: var(--INTERNAL-MAIN-TITLES-H2-font-variation-settings); font-weight: var(--INTERNAL-MAIN-TITLES-H2-font-weight); letter-spacing: var(--INTERNAL-MAIN-TITLES-H2-letter-spacing); line-height: 1.08; margin: 0 0 .8rem; overflow: visible; text-align: left; }
 .labra-hero p { color: #fff; margin: 0; max-width: 60ch; }
 @media (max-width: 700px) {
   .labra-hero > div { top: .6rem; left: .75rem; width: calc(100% - 1.5rem); }
   .labra-hero .eyebrow { font-size: .68rem; margin-bottom: .15rem; }
-  .labra-hero h2 { font-size: clamp(1.05rem, 5.8vw, 1.8rem); line-height: 1.05; margin-bottom: .3rem; max-width: 18ch; }
+  #R-body-inner .labra-hero h1 { font-size: clamp(1.05rem, 5.8vw, 1.8rem); line-height: 1.05; margin-bottom: .3rem; max-width: 18ch; }
   .labra-hero p:not(.eyebrow) { font-size: .78rem; line-height: 1.2; max-width: 42ch; }
 }
 .labra-lead { font-size: 1.16rem; line-height: 1.65; max-width: 72ch; }
