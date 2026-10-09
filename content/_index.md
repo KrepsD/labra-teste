@@ -13,7 +13,9 @@ aliases = ['/home/']
 <p>Pesquisa, formação e desenvolvimento de sistemas robóticos terrestres e aéreos.</p>
 </div></div>
 
-<p class="labra-lead">O LABRA é o Laboratório de Robótica Avançada da Universidade Federal de Santa Catarina, campus Blumenau. O grupo trabalha com robótica móvel e reúne pesquisadores, estudantes e parceiros para desenvolver soluções em autonomia, percepção, controle e aplicações.</p>
+## Quem somos nós?
+
+<p class="labra-lead">Somos o LABRA – Laboratório de Robótica Avançada da Universidade Federal de Santa Catarina campus Blumenau. Trabalhamos com Robótica Móvel com ênfase nas modalidades Terrestre e Aérea.</p>
 
 ## Conheça o laboratório
 
