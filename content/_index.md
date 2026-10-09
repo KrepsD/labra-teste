@@ -5,7 +5,9 @@ weight = 1
 aliases = ['/home/']
 +++
 
-<div class="labra-hero"><div>
+<div class="labra-hero">
+<img src="images/hero-labra.webp" alt="Robôs terrestres e equipamentos de pesquisa do LABRA" width="1024" height="622" fetchpriority="high">
+<div>
 <p class="eyebrow">UFSC · Campus Blumenau</p>
 <h2>Robótica para desafios reais</h2>
 <p>Pesquisa, formação e desenvolvimento de sistemas robóticos terrestres e aéreos.</p>
@@ -21,9 +23,11 @@ aliases = ['/home/']
 - [História](historia/) — como o LABRA e a rede de laboratórios da UFSC começaram.
 - [Parcerias e financiadores](parcerias/) — instituições que apoiam e colaboram com a pesquisa.
 
-## Em destaque
+## Nossa equipe
 
-![Equipamentos do Laboratório de Robótica Avançada](images/laboratorio.webp)
+<img class="labra-group-photo" src="images/equipe-labra.webp" alt="Integrantes do LABRA reunidos no laboratório" width="1280" height="960" loading="lazy">
+
+[Conheça as pessoas do LABRA](equipe/).
 
 ## Fale com o LABRA
 

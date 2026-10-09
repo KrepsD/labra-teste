@@ -5,7 +5,7 @@ Versão estática experimental do site do Laboratório de Robótica Avançada da
 ## O que há no protótipo
 
 - Início, história, equipe, infraestrutura, sete linhas de pesquisa, parcerias, publicações e contato.
-- Fotos selecionadas do site original convertidas para WebP e armazenadas no próprio repositório.
+- Fotos selecionadas do site original e imagens fornecidas pela equipe, armazenadas no próprio repositório.
 - Busca local do Relearn, menu responsivo e opções de visualização clara/escura.
 - GitHub Actions que compila e publica o site em cada envio para `main`.
 - Redirecionamentos para as principais URLs antigas do WordPress, úteis se o domínio institucional for migrado depois.
@@ -51,4 +51,4 @@ Depois da publicação, compare a mesma página do WordPress e do protótipo em 
 
 ## Fontes do conteúdo
 
-Páginas de [início](https://labra.ufsc.br/), [história](https://labra.ufsc.br/nossa_historia/), [equipe](https://labra.ufsc.br/nosso_time/), [infraestrutura](https://labra.ufsc.br/infraestrutura/), [pesquisa](https://labra.ufsc.br/pesquisa/), [parcerias](https://labra.ufsc.br/parcerias_financiadores/) e [publicações](https://labra.ufsc.br/publicacoes/) do WordPress do LABRA, consultadas em 8 de outubro de 2026. As páginas individuais de pesquisa mantêm links para suas fontes. As fotos em `static/images/` vieram do mesmo site, na pasta `/wp-content/uploads/2026/`.
+Páginas de [início](https://labra.ufsc.br/), [história](https://labra.ufsc.br/nossa_historia/), [equipe](https://labra.ufsc.br/nosso_time/), [infraestrutura](https://labra.ufsc.br/infraestrutura/), [pesquisa](https://labra.ufsc.br/pesquisa/), [parcerias](https://labra.ufsc.br/parcerias_financiadores/) e [publicações](https://labra.ufsc.br/publicacoes/) do WordPress do LABRA, consultadas em 8 de outubro de 2026. As páginas individuais de pesquisa mantêm links para suas fontes. As imagens iniciais vieram da pasta `/wp-content/uploads/2026/` do site original. O logo, o guardanapo, o mapa de localização e a foto coletiva foram fornecidos pelo usuário nesta conversa.

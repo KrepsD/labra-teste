@@ -11,3 +11,7 @@ O LABRA integra a Universidade Federal de Santa Catarina, campus Blumenau.
 - **LinkedIn:** [LABRA UFSC](https://www.linkedin.com/company/112192948/)
 
 Para propor uma parceria, perguntar sobre pesquisa ou entrar em contato com a equipe, escreva para o e-mail acima.
+
+## Localização
+
+<img class="labra-map" src="../images/localizacao-labra.png" alt="Mapa da região da UFSC Blumenau, com a localização do campus indicada por um marcador vermelho" width="1230" height="656" loading="lazy">
