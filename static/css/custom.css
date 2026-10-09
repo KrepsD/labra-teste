@@ -3,6 +3,15 @@
   --labra-cyan: #28a4bd;
 }
 
+/* Keep the homepage scrollable without a scrollbar covering the hero image. */
+#R-body-inner:has(.labra-hero) {
+  scrollbar-width: none;
+  scrollbar-gutter: auto;
+}
+#R-body-inner:has(.labra-hero)::-webkit-scrollbar {
+  display: none;
+}
+
 .labra-hero {
   position: relative;
   border-radius: 16px;
