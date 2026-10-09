@@ -3,15 +3,6 @@
   --labra-cyan: #28a4bd;
 }
 
-/* Keep the homepage scrollable without a scrollbar covering the hero image. */
-#R-body-inner:has(.labra-hero) {
-  scrollbar-width: none;
-  scrollbar-gutter: auto;
-}
-#R-body-inner:has(.labra-hero)::-webkit-scrollbar {
-  display: none;
-}
-
 .labra-hero {
   position: relative;
   border-radius: 16px;
@@ -24,7 +15,7 @@
 .labra-hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(9,30,57,.88) 0%, rgba(9,30,57,.58) 42%, rgba(9,30,57,.04) 85%); }
 .labra-hero > div { position: absolute; z-index: 1; top: clamp(1.25rem, 5vw, 3rem); left: clamp(1.25rem, 5vw, 3rem); width: min(75%, 680px); }
 .labra-hero .eyebrow { margin: 0 0 .5rem; font-size: .82rem; text-transform: uppercase; letter-spacing: .16em; color: #a8ecff; font-weight: 700; }
-.labra-hero h2 { color: #fff; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.08; margin: 0 0 .8rem; }
+.labra-hero h2 { color: #fff; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.08; margin: 0 0 .8rem; overflow: visible; }
 .labra-hero p { color: #fff; margin: 0; max-width: 60ch; }
 @media (max-width: 700px) {
   .labra-hero > div { top: .6rem; left: .75rem; width: calc(100% - 1.5rem); }
